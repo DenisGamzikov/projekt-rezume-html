@@ -4,10 +4,133 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@400;700&family=Oswald:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link href="./style.css" rel="stylesheet" />
     <title>Projekt-css-html</title>
   </head>
   <body class="body">
-    <div class="navigation"></div>
+    <div class="introduction">
+      <nav class="navigation">
+        <div class="menu_buttons">
+          <a
+            href="projekt-rezume-html.html"
+            id="education"
+            class="menu_button"
+            onclick="ActiveButton(`education`)"
+            >Образование</a
+          >
+          <a
+            href="projekt-rezume-html.html"
+            id="information"
+            class="menu_button"
+            onclick="ActiveButton(`information`)"
+            >Обо мне</a
+          >
+          <a
+            href="projekt-rezume-html.html"
+            id="experience"
+            class="menu_button"
+            onclick="ActiveButton(`experience`)"
+          >
+            Опыт работы</a
+          >
+          <a
+            href="projekt-rezume-html.html"
+            id="skills"
+            class="menu_button"
+            onclick="ActiveButton(`skills`)"
+          >
+            Навыки</a
+          >
+          <img src="images/Vector(1).png" class="open_menu_button" />
+        </div>
+      </nav>
+      <div class="header">
+        <div class="header_content">
+          <img src="images/4.png" class="my_photo" />
+          <span class="greetings"> <p>Привет!</p></span>
+          <span class="greetings"
+            ><h1>Меня Зовут</h1>
+            <br
+          /></span>
+          <h1 id="name">Женя Ильина</h1>
+        </div>
+      </div>
+    </div>
+    <div class="education">
+      <h2>Образование</h2>
+      <div class="education_content">
+        <div class="history_of_education">
+          <div class="part_of_education">
+            <span class="universitet"
+              ><p class="color_words">2010-2014</p>
+              <h3>Название университета</h3></span
+            >
+            <div class="college-information">
+              <h4>Степень Уровень</h4>
+              <h5 class="gray-word">Программная инженерия</h5>
+              <p class="college-life">
+                Это краткий абзац о жизни колледжа. Это краткий абзац о жизни
+                колледжа. Это краткий абзац о жизни колледжа. Это краткий абзац
+                о жизни...
+              </p>
+            </div>
+          </div>
+          <div class="part_of_education">
+            <span class="universitet"
+              ><p class="color_words">2006-2010</p>
+              <h3>Belgorodskij Gosudarstv enny Университет</h3></span
+            >
+            <div class="college-information">
+              <h4>Степень Уровень</h4>
+              <h5 class="gray-word">Био инженерия</h5>
+              <p class="college-life">
+                Это краткий абзац о жизни колледжа. Это краткий абзац о жизни
+                колледжа. Это краткий абзац о жизни колледжа. Это краткий абзац
+                о жизни...
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="more">больше</button>
+      </div>
+    </div>
+    <div class="about_me">
+      <h2>О МНЕ</h2>
+      <p class="information_about_me">
+        Я старший инженер полногосте ка с 7-летним богатым опытом.</p>
+       <p class="information_about_me"> Я буду стараться изо всех сил, чтобы удовлетворить потребност и
+        клиентов.
+      </p>
+    </div>
+    <div class="experience">
+      <h2>опыт работы</h2>
+      <div class="full_work_experience">
+        <div class="years_work">
+          <div class="when-work color-when-work" >2022-<span class="last_year">
+            2023</span></div>
+          <div class="when-work">2021-<span class="last_year">
+            2022</span></div>
+          <div class="when-work">2020-<span class="last_year">
+            2021</span></div>
+          <div class="when-work">2018-<span class="last_year">
+            2020</span></div>
+      </div>
+        <div class="work_information">
+          <div class="name-work-full"><h2 class="name-work">William C.</h2>
+          <p class="color_words">Spherical.Inc.</p></div>
+         
+      
+      <p class="gray-word data-work">июнь 2022 - апрель 2023</p>
+      <p class="big-gray-word">Frontend Разработчик</p>
+      <p class="what-did">Разработал более 40 приложений в соответствии с методологиями разра ботки продуктов Agile.</p>
+    </div>
+  </div>
+    <script src="./changes.js"></script>
   </body>
 </html>

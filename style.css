@@ -4,3 +4,306 @@
   background: rgba(49, 57, 77, 0.9);
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
+body {
+  margin: 0px;
+  font-size: 40px;
+  font-family: "inter";
+}
+.menu_buttons {
+  height: 100%;
+}
+.menu_button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 0;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31.47px;
+  height: 65px;
+  margin-right: 60px;
+  transition: color 300ms linear, border-bottom 300ms linear;
+}
+.active {
+  color: #f0544f;
+  border-bottom: 3px solid #f0544f;
+}
+.big_picture {
+  width: 100%;
+}
+.header {
+  position: absolute;
+  left: 200px;
+  top: 310px;
+  color: #ffffff;
+}
+.header p {
+  margin-bottom: 15px;
+}
+.header h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84.72px;
+  margin: 0px;
+}
+.introduction {
+  background-image: url("images/1.png");
+  background-repeat: no-repeat;
+  min-height: 776px;
+  background-size: 100% 100%;
+}
+.menu_button a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu_button a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu_button a:checked {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu_button a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.my_photo {
+  position: absolute;
+  bottom: 0;
+}
+.color-when-work {
+  background-color: #eca400;
+  color: #000000;
+}
+@media only screen and (max-width: 600px) {
+  .introduction {
+    background-image: url("images/1.png");
+    background-size: 100%;
+    min-height: 280px;
+  }
+  .navigation {
+    background: rgba(49, 57, 77, 0.99);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    max-height: 50px;
+  }
+
+  .menu_button {
+    display: none;
+  }
+  .menu_buttons {
+    margin-left: 315px;
+  }
+  .open_menu_button {
+    width: 40px;
+    height: 26px;
+  }
+  .my_photo {
+    position: static;
+  }
+  .header {
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 108px;
+    height: 200px;
+    min-width: 174px;
+    top: 80px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    align-items: center;
+  }
+  .header_content {
+    padding-top: 19px;
+    max-width: 100px;
+    align-items: center;
+  }
+  .greetings {
+    display: none;
+  }
+  #name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28.4px;
+    text-align: center;
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  .education {
+    margin-left: 20px;
+  }
+  .history_of_education {
+    margin-right: 25px;
+  }
+  .part_of_education {
+    background-color: #ffffff;
+    box-shadow: -3px 4px 10px 2px rgba(0, 0, 0, 0.25);
+    min-height: 170px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+  }
+  .color_words {
+    color: #b85741;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 7px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 0px;
+    max-width: 194px;
+  }
+  .universitet {
+    display: flex;
+    align-items: baseline;
+  }
+  h4 {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 0px;
+  }
+  .gray-word {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #737373;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 0px;
+  }
+  .college-life {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    margin: 10px 20px;
+
+    font-family: "Inter";
+    font-style: normal;
+  }
+  .more {
+    background-color: #f0544f;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 37px;
+    min-width: 127px;
+    color: #ffffff;
+    border: 0;
+    margin-bottom: 30px;
+  }
+  .education_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about_me {
+    margin-left: 20px;
+  }
+  .information_about_me::first-letter {
+    margin-left: 17px;
+  }
+
+  .information_about_me {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    margin-right: 25px;
+    margin-left: 5px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  .experience {
+    margin-left: 20px;
+    margin-top: 59px;
+  }
+  .when-work {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    border-right: 2px solid #eca400;
+    background-color: #31394d;
+    color: #ffffff;
+    height: 40px;
+    max-width: 68px;
+    padding: 2px 6px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  .color-when-work {
+    background-color: #eca400;
+    color: #000000;
+  }
+  .years_work {
+    display: flex;
+    align-items: baseline;
+  }
+  .years_work .when-work:last-child {
+    border-right: 0;
+  }
+  .last_year {
+    align-self: flex-end;
+  }
+  .full_work_experience {
+    margin-right: 38px;
+    margin-left: 18px;
+  }
+  .work_information {
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+    min-height: 290px;
+    padding: 20px 15px;
+  }
+  .name-work {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: justify;
+    text-decoration: none;
+  }
+  .name-work-full {
+    display: flex;
+    align-items: baseline;
+  }
+  .big-gray-word {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #737373;
+  }
+  .data-work {
+    text-align: left;
+  }
+  .what-did {
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify;
+  }
+  .what-did::first-letter {
+    margin-left: 28px;
+  }
+}
