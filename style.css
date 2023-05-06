@@ -1,0 +1,6 @@
+.navigation {
+  height: 80px;
+  width: 100vw;
+  background: rgba(49, 57, 77, 0.9);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
