@@ -45,6 +45,7 @@ body {
   line-height: 84.72px;
   margin: 0px;
 }
+
 .introduction {
   background-image: url("images/1.png");
   background-repeat: no-repeat;
@@ -305,5 +306,78 @@ a {
   }
   .what-did::first-letter {
     margin-left: 28px;
+  }
+  .skills {
+    margin-top: 30px;
+    margin-left: 20px;
+  }
+  .develop-skill {
+    margin-top: 40px;
+    background: #ffffff;
+    border: 1px solid #a4a4a4;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 20px;
+    height: 150px;
+  }
+  .container-header {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    position: relative;
+    top: -25px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    max-width: 129px;
+    margin-bottom: 0px;
+  }
+  .skills-and-levels {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 17px;
+    margin-right: 20px;
+  }
+  .programming-skill {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+  .programming-languages {
+    position: relative;
+    top: -25px;
+    margin-right: 20px;
+  }
+  #js-skill {
+    margin-bottom: 0px;
+  }
+  .max-level {
+    width: 190px;
+    height: 1px;
+    background-color: black;
+  }
+  .levels-programming-languages {
+    position: relative;
+    top: -25px;
+    display: flex;
+    flex-direction: column;
+  }
+  .html-level,
+  .css-level {
+    margin-bottom: 30px;
+  }
+  .next-skill {
+    background: #f0544f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    max-width: 68px;
+    height: 20px;
+    color: #ffffff;
+    border: 0;
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 226px;
   }
 }
