@@ -4,10 +4,15 @@
   background: rgba(49, 57, 77, 0.9);
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0px;
   font-size: 40px;
   font-family: "inter";
+  scroll-behavior: smooth;
+  --skill-level: 65%;
 }
 .menu_buttons {
   height: 100%;
@@ -47,7 +52,7 @@ body {
 }
 
 .introduction {
-  background-image: url("images/1.png");
+  background-image: url("images/background-image.png");
   background-repeat: no-repeat;
   min-height: 776px;
   background-size: 100% 100%;
@@ -82,7 +87,7 @@ a {
 }
 @media only screen and (max-width: 600px) {
   .introduction {
-    background-image: url("images/1.png");
+    background-image: url("images/background-image.png");
     background-size: 100%;
     min-height: 280px;
   }
@@ -138,15 +143,17 @@ a {
     font-size: 20px;
     line-height: 24px;
     text-transform: uppercase;
-    text-decoration: underline;
+    display: inline-block;
+    padding: 0 10px 5px 0;
+    border-bottom: 2px solid #000000;
   }
-  .education {
+  #education {
     margin-left: 20px;
   }
-  .history_of_education {
+  .education_history {
     margin-right: 25px;
   }
-  .part_of_education {
+  .education_part {
     background-color: #ffffff;
     box-shadow: -3px 4px 10px 2px rgba(0, 0, 0, 0.25);
     min-height: 170px;
@@ -218,7 +225,7 @@ a {
     flex-direction: column;
     align-items: center;
   }
-  .about_me {
+  #information {
     margin-left: 20px;
   }
   .information_about_me::first-letter {
@@ -237,7 +244,7 @@ a {
     margin-bottom: 0px;
     margin-top: 0px;
   }
-  .experience {
+  #experience {
     margin-left: 20px;
     margin-top: 59px;
   }
@@ -285,6 +292,7 @@ a {
     line-height: 27px;
     text-align: justify;
     text-decoration: none;
+    border-bottom: 0;
   }
   .name-work-full {
     display: flex;
@@ -307,7 +315,7 @@ a {
   .what-did::first-letter {
     margin-left: 28px;
   }
-  .skills {
+  #skills {
     margin-top: 30px;
     margin-left: 20px;
   }
@@ -319,54 +327,25 @@ a {
     border-radius: 10px;
     margin-right: 40px;
     margin-left: 20px;
-    height: 150px;
+    min-height: 150px;
+    margin-bottom: 40px;
   }
   .container-header {
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
     position: relative;
-    top: -25px;
+    top: -34px;
     margin-left: 20px;
     background-color: #ffffff;
-    max-width: 129px;
+    display: inline-block;
     margin-bottom: 0px;
+    padding-right: 3px;
   }
   .skills-and-levels {
-    display: flex;
+    margin-top: -22px;
     margin-left: 20px;
-    margin-top: 17px;
     margin-right: 20px;
-  }
-  .programming-skill {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
-    margin-top: 0px;
-    margin-bottom: 15px;
-  }
-  .programming-languages {
-    position: relative;
-    top: -25px;
-    margin-right: 20px;
-  }
-  #js-skill {
-    margin-bottom: 0px;
-  }
-  .max-level {
-    width: 190px;
-    height: 1px;
-    background-color: black;
-  }
-  .levels-programming-languages {
-    position: relative;
-    top: -25px;
-    display: flex;
-    flex-direction: column;
-  }
-  .html-level,
-  .css-level {
-    margin-bottom: 30px;
   }
   .next-skill {
     background: #f0544f;
@@ -378,6 +357,97 @@ a {
     border: 0;
     font-size: 10px;
     line-height: 12px;
-    margin-left: 226px;
+    margin-left: 222px;
+    position: relative;
+
+    top: -12px;
+  }
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    row-gap: 15px;
+    margin-top: 0;
+    column-gap: 20px;
+  }
+  .skill {
+    flex-basis: 20%;
+    flex-grow: 1;
+  }
+  .level {
+    flex-basis: 60%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-bottom: solid 1px #000000;
+    height: 1px;
+    margin: 6px 0;
+    position: relative;
+  }
+  .level::after {
+    position: absolute;
+    content: "";
+    border-bottom: 5px solid #f0544f;
+    display: block;
+    top: -1px;
+    width: var(--skill-level);
+  }
+  .skills-and-levels span {
+    padding-left: 0;
+  }
+  .skills-and-levels .skill {
+    width: 60px;
+
+    display: inline-block;
+  }
+
+  .languages {
+    background: #ffffff;
+    border: 1px solid #a4a4a4;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 20px;
+    min-height: 150px;
+  }
+  .contacts {
+    padding-left: 26px;
+    padding-right: 26px;
+    background-color: #31394d;
+    width: 100%;
+    min-height: 90px;
+    margin-top: 27px;
+  }
+  .contacts-text {
+    font-size: 15px;
+    line-height: 18.15px;
+  }
+  .whatsapp-logo,
+  .telegramm-logo {
+    margin-right: 14px;
+  }
+  .phone-nomber {
+    margin-right: 50px;
+  }
+  .navigation-low-width-screen {
+    height: 100vh;
+    min-width: 236px;
+    margin-left: 155px;
+    background-color: #31394d;
+    z-index: 10;
+    position: relative;
+  }
+  .low_menu_button {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 12px;
+    text-align: right;
+    transition: color 300ms linear, border-bottom 300ms linear;
   }
 }
