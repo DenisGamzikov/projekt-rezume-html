@@ -13,8 +13,8 @@ body {
   font-family: "inter";
   scroll-behavior: smooth;
   --skill-level: 65%;
-  height: 100vh;
-  overflow: hidden;
+  /* height: 100vh;
+  overflow: hidden; */
 }
 .menu_buttons {
   height: 100%;
@@ -416,7 +416,7 @@ a {
     padding-left: 26px;
     padding-right: 26px;
     background-color: #31394d;
-    width: 100%;
+    max-width: 100%;
     min-height: 90px;
     margin-top: 27px;
   }
@@ -433,11 +433,12 @@ a {
   }
   .navigation-low-width-screen {
     height: 100vh;
-    min-width: 236px;
+    max-width: 0px;
     margin-left: 155px;
     background-color: #31394d;
     z-index: 10;
     position: relative;
+    display: none;
   }
   .low_menu_button {
     font-weight: 700;
@@ -451,5 +452,30 @@ a {
     padding-right: 12px;
     text-align: right;
     transition: color 300ms linear, border-bottom 300ms linear;
+  }
+  #navigation-low-width-screen {
+    transition: width 200ms linear;
+  }
+  .low-width-menu-active {
+    min-width: 236px;
+    margin-left: 155px;
+    background-color: #31394d;
+    z-index: 10;
+    position: relative;
+    display: block;
+    height: 100vh;
+    display: block;
+  }
+  .unactive-body {
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+  }
+  .fixed-whatsapp-logo {
+    position: fixed;
+    right: 20px;
+    bottom: 106px;
+    width: 50px;
   }
 }

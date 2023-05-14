@@ -13,8 +13,8 @@
     <link href="./style.css" rel="stylesheet" />
     <title>Projekt-css-html</title>
   </head>
-  <body class="body">
-    <nav class="navigation-low-width-screen">
+  <body class="body" id="body">
+    <nav class="navigation-low-width-screen" id="navigation-low-width-screen">
       <a
         href="#education"
         class="low_menu_button"
@@ -79,7 +79,11 @@
           >
             Навыки</a
           >
-          <img src="images/open-menu.png" class="open_menu_button" />
+          <img
+            src="images/open-menu.png"
+            class="open_menu_button"
+            onclick="openMenu()"
+          />
         </div>
       </nav>
       <div class="header">
@@ -222,6 +226,7 @@
         <img src="images/facebook.png" />
       </div>
     </div>
+    <img src="images/whatsapp.png" class="fixed-whatsapp-logo" />
     <script src="./changes.js"></script>
   </body>
 </html>
