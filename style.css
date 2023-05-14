@@ -13,6 +13,8 @@ body {
   font-family: "inter";
   scroll-behavior: smooth;
   --skill-level: 65%;
+  height: 100vh;
+  overflow: hidden;
 }
 .menu_buttons {
   height: 100%;
