@@ -1,0 +1,92 @@
+.navigation {
+  height: 80px;
+  width: 100vw;
+  background: rgba(49, 57, 77, 0.9);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0px;
+  font-size: 40px;
+  font-family: "inter";
+  scroll-behavior: smooth;
+  --skill-level: 65%;
+  /* height: 100vh;
+    overflow: hidden; */
+}
+.menu_buttons {
+  height: 100%;
+}
+.menu_button {
+  background-color: transparent;
+  color: #ffffff;
+  border: 0;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31.47px;
+  height: 65px;
+  margin-right: 60px;
+  transition: color 300ms linear, border-bottom 300ms linear;
+}
+.active {
+  color: #f0544f;
+  border-bottom: 3px solid #f0544f;
+}
+.big_picture {
+  width: 100%;
+}
+.header {
+  position: absolute;
+  left: 200px;
+  top: 310px;
+  color: #ffffff;
+}
+.header p {
+  margin-bottom: 15px;
+}
+.header h1 {
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 84.72px;
+  margin: 0px;
+}
+
+/* .introduction {
+  background-image: url("images/background-image.png");
+  background-repeat: no-repeat;
+  min-height: 776px;
+  background-size: 100% 100%;
+} */
+.menu_button a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu_button a:visited {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu_button a:checked {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu_button a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* .my_photo {
+  position: absolute;
+  bottom: 0;
+}
+.color-when-work {
+  background-color: #eca400;
+  color: #000000;
+}
+.navigation-low-width-screen {
+  display: none;
+} */
