@@ -4,7 +4,6 @@ const removeClass = (linkEl) => {
   linkEl.classList.remove("active");
 };
 const ActiveButton = (id) => {
-  location.hash = id;
   const linksEl = document.querySelectorAll(".low-width-menu-active a");
   linksEl.forEach(removeClass);
   body.classList.remove("unactive-body");

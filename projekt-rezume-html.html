@@ -10,7 +10,9 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link href="./style.css" rel="stylesheet" />
+
+    <link href="./computer.css" rel="stylesheet" />
+    <link href="./phone.css" rel="stylesheet" />
     <title>Projekt-css-html</title>
   </head>
   <body class="body" id="body">
@@ -88,7 +90,8 @@
       </nav>
       <div class="header">
         <div class="header_content">
-          <img src="images/round-face.png" class="my_photo" />
+          <img src="images/round-face.png" class="my_photo" id="small-face" />
+
           <span class="greetings"> <p>Привет!</p></span>
           <span class="greetings"
             ><h1>Меня Зовут</h1>
@@ -97,39 +100,50 @@
           <h1 id="name">Женя Ильина</h1>
         </div>
       </div>
+      <img src="images/face.png" class="my_photo" id="full-photo" />
     </div>
     <div id="education">
       <h2>Образование</h2>
       <div class="education_content">
         <div class="education_history">
           <div class="education_part">
-            <span class="universitet"
-              ><p class="color_words">2010-2014</p>
-              <h3>Название университета</h3></span
-            >
-            <div class="college-information">
-              <h4>Степень Уровень</h4>
-              <h5 class="gray-word">Программная инженерия</h5>
+            <div class="start-information">
+              <div class="triangle"></div>
+              <div class="ball yellow-ball"></div>
+              <span class="universitet"
+                ><p class="color_words">2010-2014</p>
+                <h3>РУДН</h3></span
+              >
+              <div class="college-information">
+                <h4>Магистр</h4>
+                <h5 class="gray-word">Программная инженерия</h5>
+              </div>
+            </div>
+            <div class="text-collage-life">
               <p class="college-life">
-                Это краткий абзац о жизни колледжа. Это краткий абзац о жизни
-                колледжа. Это краткий абзац о жизни колледжа. Это краткий абзац
-                о жизни...
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                porttitor dolor sed massa tincidunt, id alique ad nunc maximus.
+                Maecenas iaculis v elit vel gravida molestie. Suspendisse commo
+                do nisi at bibendum posuere.
               </p>
             </div>
           </div>
           <div class="education_part">
+            <div class="start-information">
+            <div class="triangle"></div>
+            <div class="ball red-ball"></div>
             <span class="universitet"
               ><p class="color_words">2006-2010</p>
-              <h3>Belgorodskij Gosudarstv enny Университет</h3></span
+              <h3 class="big-name">Belgorodskij Gosudarstvenny Университет</h3></span
             >
             <div class="college-information">
-              <h4>Степень Уровень</h4>
-              <h5 class="gray-word">Био инженерия</h5>
+              <h4>Бакалавр</h4>
+              <h5 class="gray-word profession">Био инженерия</h5>
+            </div></div>
+            <div class="text-collage-life">
               <p class="college-life">
-                Это краткий абзац о жизни колледжа. Это краткий абзац о жизни
-                колледжа. Это краткий абзац о жизни колледжа. Это краткий абзац
-                о жизни...
-              </p>
+                Активный участник кружков, староста потока. Как дипломную работу написал приложение для управления внутренними процессами университета.
+              </p></div>
             </div>
           </div>
         </div>
@@ -137,7 +151,7 @@
       </div>
     </div>
     <div id="information">
-      <h2>О МНЕ</h2>
+      <h2>ОБО МНЕ</h2>
       <p class="information_about_me">
         Я старший инженер полногосте ка с 7-летним богатым опытом.
       </p>
