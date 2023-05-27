@@ -8,7 +8,6 @@ const ActiveButton = (id) => {
   menuEl.classList.add("navigation-low-width-screen");
   screenEl.classList.remove("opacity-el");
 };
-
 function openMenu() {
   menuEl.classList.remove("navigation-low-width-screen");
   menuEl.classList.add("low-width-menu-active");
@@ -16,7 +15,6 @@ function openMenu() {
   screenEl.classList.add("opacity-el");
 }
 const bigPicture = document.getElementById("container-big-picture");
-
 function willBig() {
   bigPicture.classList.remove("full-picture-off");
   bigPicture.classList.add("full-picture-on");

@@ -7,7 +7,6 @@
   .information_about_me::first-letter {
     margin-left: 17px;
   }
-
   .information_about_me {
     font-family: "Inter";
     font-style: normal;
@@ -31,4 +30,5 @@
   }
   .text-information {
     margin-left: 0;
+  }
 }
