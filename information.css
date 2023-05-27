@@ -1,0 +1,30 @@
+.information-photo {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+}
+
+.information-block {
+  display: flex;
+}
+.text-information {
+  max-width: 900px;
+  max-height: 332px;
+  margin-left: 65px;
+}
+#information {
+  margin-top: 93px;
+  text-align: center;
+}
+.information_about_me::first-letter {
+  margin-left: 25px;
+}
+.information_about_me {
+  font-size: 30px;
+  line-height: 39px;
+  text-align: justify;
+  margin: 27px;
+}
+.opacity-el {
+  opacity: 0.3;
+}
