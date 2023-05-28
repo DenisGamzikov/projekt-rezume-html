@@ -4,10 +4,261 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    
+    <link href="./navigation+education.css" rel="stylesheet" />
+    <link href="./navigation+education-low-screen.css" rel="stylesheet" />
+    <link href="./information.css" rel="stylesheet" />
+    <link href="./information-low-screen.css" rel="stylesheet" />
+    <link href="./experience.css" rel="stylesheet" />
+    <link href="./experience-low-screen.css" rel="stylesheet" />
+    <link href="./skills.css" rel="stylesheet" />
+    <link href="./skills-low-screen.css" rel="stylesheet" />
+    <link href="./contacts.css" rel="stylesheet" />
+    <link href="./contacts-low-screen.css" rel="stylesheet" />
     <title>Projekt-css-html</title>
   </head>
-  <body>
-    Hello world
+  <body class="body" id="body">
+    <nav class="navigation-low-width-screen" id="navigation-low-width-screen">
+      <a
+        href="#education"
+        class="low_menu_button"
+        onclick="ActiveButton(`education_button`)"
+        id="education_button"
+        >Образование</a
+      >
+      <a
+        href="#information"
+        class="low_menu_button"
+        onclick="ActiveButton(`information_button`)"
+        id="information_button"
+        >Обо мне</a
+      >
+      <a
+        href="#experience"
+        class="low_menu_button"
+        onclick="ActiveButton(`experience_button`)"
+        id="experience_button"
+      >
+        Опыт работы</a
+      >
+      <a
+        href="#skills"
+        class="low_menu_button"
+        onclick="ActiveButton(`skills_button`)"
+        id="skills_button"
+      >
+        Навыки</a
+      >
+    </nav>
+  
+   <div id="all-screen"><div> <div class="introduction">
+      <nav class="navigation">
+        <div class="menu_buttons">
+          <a
+            href="#education"
+            class="menu_button small-screen-display-none"
+            onclick="ActiveButton(`education_button`)"
+            id="education_button"
+            >Образование</a
+          >
+          <a
+            href="#information"
+            class="menu_button small-screen-display-none"
+            onclick="ActiveButton(`information_button`)"
+            id="information_button"
+            >Обо мне</a
+          >
+          <a
+            href="#experience"
+            class="menu_button small-screen-display-none"
+            onclick="ActiveButton(`experience_button`)"
+            id="experience_button"
+          >
+            Опыт работы</a
+          >
+          <a
+            href="#skills"
+            class="menu_button small-screen-display-none"
+            onclick="ActiveButton(`skills_button`)"
+            id="skills_button"
+          >
+            Навыки</a
+          >
+          <img
+            src="images/open-menu.png"
+            class="open_menu_button"
+            onclick="openMenu()"
+          />
+        </div>
+      </nav>
+      <div class="header">
+        <div class="header_content">
+          <img src="images/round-face.png" class="my_photo" id="small-face" />
+
+          <span class="greetings small-screen-display-none"> <p>Привет!</p></span>
+          <span class="greetings small-screen-display-none"
+            ><h1>Меня Зовут</h1>
+            <br
+          /></span>
+          <h1 id="name">Женя Ильина</h1>
+        </div>
+      </div>
+      <img src="images/face.png" class="my_photo small-screen-display-none" id="full-photo" />
+    </div>
+    <div id="education">
+      <h2>Образование</h2>
+      <div class="education_content">
+        <div class="education_history">
+          <div class="education_part">
+            <div class="start-information">
+              <div class="triangle small-screen-display-none"></div>
+              <div class="ball yellow-ball small-screen-display-none"></div>
+              <span class="universitet"
+                ><p class="color_words">2010-2014</p>
+                <h3>РУДН</h3></span
+              >
+              <div class="college-information">
+                <h4>Магистр</h4>
+                <h5 class="gray-word">Программная инженерия</h5>
+              </div>
+            </div>
+            <div class="text-collage-life">
+              <p class="college-life">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                porttitor dolor sed massa tincidunt, id alique ad nunc maximus.
+                Maecenas iaculis v elit vel gravida molestie. Suspendisse commo
+                do nisi at bibendum posuere.
+              </p>
+            </div>
+          </div>
+          <div class="education_part">
+            <div class="start-information">
+            <div class="triangle"></div>
+            <div class="ball red-ball"></div>
+            <span class="universitet"
+              ><p class="color_words">2006-2010</p>
+              <h3 class="big-name">Belgorodskij Gosudarstvenny Университет</h3></span
+            >
+            <div class="college-information">
+              <h4>Бакалавр</h4>
+              <h5 class="gray-word profession">Био инженерия</h5>
+            </div></div>
+            <div class="text-collage-life">
+              <p class="college-life">
+                Активный участник кружков, староста потока. Как дипломную работу написал приложение для управления внутренними процессами университета.
+              </p></div>
+            </div>
+          </div>
+        </div>
+        <button class="more">больше</button>
+      </div>
+    </div>
+    <section id="information">
+      <h2>ОБО МНЕ</h2>
+     <div class="information-block"><img src="images/woman-on-computer.png" class="information-photo small-screen-display-none">
+      <div class="text-information"><p class="information_about_me">
+        Я старший инженер полного стека с 7-летним богатым опытом.
+      </p>
+     <p class="information_about_me small-screen-display-none"> Я ответил на совместную разработку с различными командами и рекомендации многих клиентов с высочайшим качеством и скоростью и буду продолжать делать это в будущем</p>
+      <p class="information_about_me">
+        Я буду стараться изо всех сил, чтобы удовлетворить потребности
+        клиентов.
+      </p></div> </div>
+    </section>
+    <section id="experience">
+      <h2>опыт работы</h2>
+      <div class="full_work_experience">
+        <div class="years_work">
+          <div class="when-work color-when-work"><p class="number small-screen-display-none">01.</p><div class="years">
+            2022-<span class="last_year"> 2023</span></div>
+          </div>
+          <div class="when-work"><p class="number small-screen-display-none">02.</p><div class="years">2021-<span class="last_year"> 2022</span></div></div>
+          <div class="when-work"><p class="number small-screen-display-none">03.</p><div class="years">2020-<span class="last_year"> 2021</span></div></div>
+          <div class="when-work last-container"><p class="number small-screen-display-none">04.</p><div class="years">2018-<span class="last_year"> 2020</span></div></div>
+        </div>
+        <div class="work_information">
+          <div class="name-work-full">
+            <h2 class="name-work">William C.</h2>
+            <p class="color_words">Spherical.Inc.</p>
+          </div>
+
+          <div class="when-who-work"><p class="gray-word data-work">июнь 2022 - апрель 2023</p><span class="partition small-screen-display-none"> |</span>
+          <p class="big-gray-word">Frontend Разработчик</p></div>
+          <p class="what-did">
+            Разработал более 40 приложений в соответствии с методологиями разра
+            ботки продуктов Agile.
+          </p>
+        </div>
+       <div><img src="images/i-on-computer.png" class="information-photo big-photo small-screen-display-none">
+        <div class="gray-square small-screen-display-none"  onclick="willBig()"><img src="images/loupe.png" class="loupe small-screen-display-none"></div></div> 
+      </div>
+    </section>
+    <div id="skills">
+      <h2>Навыки</h2>
+      <div class="skills-content">
+      <div class="develop-skill skills-kontainer">
+        <p class="container-header">Технические</p>
+        <div class="skills-and-levels">
+          <div class="skills " >
+            <span class="skill">HTML</span>
+            <span class="level" style="--skill-level: 77%"></span>
+
+            <span class="skill">CSS</span>
+            <span class="level" style="--skill-level: 56%"></span>
+
+            <span class="skill"> JavaScript</span>
+            <span class="level" style="--skill-level: 70%"></span>
+          </div>
+        </div>
+        <button class="next-skill">Следующий</button>
+      </div>
+      <div class="languages skills-kontainer">
+        <p class="container-header">Языки</p>
+        <div class="skills-and-levels">
+          <div class="skills">
+            <span class="skill">Английский</span>
+            <span class="level" style="--skill-level: 100%"></span>
+
+            <span class="skill">Польский</span>
+            <span class="level" style="--skill-level: 79%"></span>
+
+            <span class="skill">Русский</span>
+            <span class="level" style="--skill-level: 58%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div class="contacts">
+      <div class="email">
+        <img src="images/mail.png" />
+        <a
+          href="mailto:zhenia.ilinya_1994@gmail.com?subject=Добрый день. Мы хотим с вами связаться"
+          class="contacts-text"
+          >zhenia.ilinya_1994@gmail.com</a
+        >
+      </div>
+      <div class="phone-seti"><div>
+        <img src="images/phone.png" />
+        <a href="tel:+600340430719" class="contacts-text phone-nomber"
+          >+60 034 043 0719</a
+        ></div><div class="seti">
+          <a href="https://wa.me/60 034 043 0719?text=Добрый день. Мы хотим с вами связаться" target="_blank"><img src="images/whatsapp.png" class="whatsapp-logo" /></a>
+       <a href="https://web.telegram.org/a/" target="_blank"><img src="images/telegramm.png" class="telegramm-logo" /></a>
+       <a href="https://ru-ru.facebook.com" target="_blank"> <img src="images/facebook.png" class="facebook-logo"/></a>
+      </div></div>
+    </div>
+    <a href="https://wa.me/60 034 043 0719?text=Добрый день. Мы хотим с вами связаться" target="_blank"><img src="images/whatsapp.png" class="fixed-whatsapp-logo" id="big-whatsapp-logo"/></a><button class="pop-up-button small-screen-display-none" id="pop-up-button">Позвоните мне</button></div>
+   <div id="container-big-picture" class="full-picture-off"><img src="images/i-on-computer.png" class="full-picture">
+    <div id="close-gray-square" class="small-screen-display-none" onclick="willSmall()"><div class="full-close-square"><div class="stick first-stick"></div><div class="stick second-stick"></div> </div></div>
+    <script src="./changes.js"></script>
+    
   </body>
 </html>
