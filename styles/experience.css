@@ -77,17 +77,17 @@
   height: 100px;
   background-color: #737373;
   position: relative;
-  bottom: 460px;
-  left: 350px;
+  top: -459.5px;
+  right: -350px;
   cursor: pointer;
 }
 #close-gray-square {
   width: 100px;
   height: 100px;
   background-color: #737373;
-  position: relative;
-  bottom: 764px;
-  left: 1052px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
   cursor: pointer;
 }
 .loupe {
@@ -104,6 +104,7 @@
 .full-picture {
   width: 50%;
   height: 100%;
+  object-fit: contain;
 }
 .full-picture-on {
   display: block;

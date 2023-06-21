@@ -19,11 +19,11 @@
   }
   .seti {
     display: flex;
-    max-width: 103px;
   }
-  .phone-nomber {
-    margin-right: 50px;
+  .phone-seti {
+    justify-content: space-between;
   }
+
   .navigation-low-width-screen {
     height: 100vh;
     max-width: 0px;
