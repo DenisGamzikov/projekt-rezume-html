@@ -5,7 +5,7 @@
   border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 .introduction {
-  background-image: url("styles/images/background-image.png");
+  background-image: url("images/background-image.png");
   background-size: 100%;
   min-height: 280px;
   background-repeat: no-repeat;

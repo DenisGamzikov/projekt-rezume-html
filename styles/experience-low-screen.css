@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) {
+  #experience {
+    margin-left: 20px;
+    margin-top: 59px;
+    text-align: left;
+  }
+  .when-work {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    border-right: 2px solid #eca400;
+    background-color: var(--impotant-blue-color);
+    color: #ffffff;
+    height: 40px;
+    max-width: 68px;
+    padding: 2px 6px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border-bottom: 0;
+  }
+  .color-when-work {
+    background-color: #eca400;
+    color: #000000;
+  }
+  .when-who-work {
+    display: block;
+    margin-top: 0;
+  }
+  .years_work {
+    display: flex;
+    align-items: baseline;
+  }
+  .years_work .when-work:last-child {
+    border-right: 0;
+  }
+  .years {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .text-information {
+    margin-left: 0;
+  }
+
+  .last_year {
+    align-self: flex-end;
+  }
+  .full_work_experience {
+    margin-right: 38px;
+    margin-left: 18px;
+    display: block;
+  }
+  .work_information {
+    box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
+    min-height: 290px;
+    padding: 20px 15px;
+  }
+  .name-work {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: justify;
+    text-decoration: none;
+    border-bottom: 0;
+    padding: 0;
+  }
+  .name-work-full {
+    display: flex;
+    align-items: baseline;
+    margin-top: 0;
+  }
+  .big-gray-word {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    color: #737373;
+  }
+  .data-work {
+    text-align: left;
+  }
+  .what-did {
+    font-size: 16px;
+    line-height: 27px;
+    text-align: justify;
+  }
+  .what-did::first-letter {
+    margin-left: 28px;
+  }
+}

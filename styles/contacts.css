@@ -55,9 +55,7 @@
 .active-button {
   display: block;
 }
-#big-whatsapp-logo {
-  width: 100%;
-}
+
 .unactive-button {
   display: none;
 }

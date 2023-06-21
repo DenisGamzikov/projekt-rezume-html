@@ -60,15 +60,11 @@
     height: 100vh;
     display: block;
   }
-  .fixed-whatsapp-logo img {
+  .fixed-whatsapp-logo {
     position: fixed;
     right: 20px;
     bottom: 106px;
     width: 50px;
-  }
-
-  .fixed-whatsapp-logo:hover + .pop-up-button {
-    display: block;
   }
 
   .contacts {
