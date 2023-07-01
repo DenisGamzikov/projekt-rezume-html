@@ -1,0 +1,111 @@
+@media only screen and (max-width: 600px) {
+  #skills {
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: left;
+  }
+  .develop-skill {
+    margin-top: 40px;
+    background: #ffffff;
+    border: 1px solid #a4a4a4;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 20px;
+    min-height: 150px;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  .container-header {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    position: relative;
+    top: -34px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    display: inline-block;
+    margin-bottom: 0px;
+    padding-right: 3px;
+  }
+  .skills-content {
+    display: block;
+    margin: 0px;
+  }
+  .skills-and-levels {
+    margin-top: -22px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .next-skill {
+    background: #f0544f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    min-width: 68px;
+    min-height: 20px;
+    color: #ffffff;
+    border: 0;
+    font-size: 10px;
+    line-height: 12px;
+    margin: 0px 0px 0px 222px;
+    position: relative;
+
+    top: -12px;
+  }
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    row-gap: 15px;
+    margin-top: 0;
+    column-gap: 20px;
+  }
+  .skill {
+    flex-basis: 20%;
+    flex-grow: 1;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .level {
+    flex-basis: 60%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    border-bottom: solid 1px #000000;
+    height: 1px;
+    margin: 6px 0;
+    position: relative;
+  }
+  .level::after {
+    position: absolute;
+    content: "";
+    border-bottom: 5px solid #f0544f;
+    display: block;
+    top: -1px;
+    width: var(--skill-level);
+  }
+  .skills-and-levels span {
+    padding-left: 0;
+  }
+  .skills-and-levels .skill {
+    width: 60px;
+
+    display: inline-block;
+  }
+  .languages {
+    background: #ffffff;
+    border: 1px solid #a4a4a4;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-right: 40px;
+    margin-left: 20px;
+    min-height: 150px;
+    text-align: left;
+    max-width: 310px;
+  }
+  .skills-kontainer {
+    min-width: 310px;
+    display: block;
+  }
+}

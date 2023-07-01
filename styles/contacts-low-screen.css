@@ -1,0 +1,84 @@
+@media only screen and (max-width: 600px) {
+  .whatsapp-logo {
+    width: 20px;
+    height: 20px;
+    margin-left: 32px;
+  }
+  .telegramm-logo {
+    width: 24px;
+    height: 20px;
+    margin-left: 19px;
+  }
+
+  .facebook-logo {
+    width: 20px;
+    height: 20px;
+    margin-left: 19px;
+  }
+
+  .email {
+    margin-bottom: 0;
+  }
+  .seti {
+    display: flex;
+  }
+  .phone-seti {
+    justify-content: space-between;
+  }
+
+  .navigation-low-width-screen {
+    height: 100vh;
+    max-width: 0px;
+    margin-left: 155px;
+    background-color: var(--impotant-blue-color);
+    z-index: 10;
+    position: relative;
+    display: none;
+  }
+  .low_menu_button {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff;
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 12px;
+    text-align: right;
+    transition: color 300ms linear, border-bottom 300ms linear;
+  }
+  #navigation-low-width-screen {
+    transition: width 200ms linear;
+  }
+  .low-width-menu-active {
+    min-width: 236px;
+    margin-left: 155px;
+    background-color: var(--impotant-blue-color);
+    z-index: 10;
+    position: fixed;
+    right: 0;
+    display: block;
+    height: 100vh;
+    display: block;
+  }
+  .fixed-whatsapp-logo {
+    position: fixed;
+    right: 20px;
+    bottom: 106px;
+    width: 50px;
+  }
+
+  .contacts {
+    background-color: var(--impotant-blue-color);
+    max-width: 100vw;
+    min-height: 90px;
+    margin-top: 27px;
+
+    padding: 0px 26px 15px 26px;
+  }
+  .contacts-text {
+    font-size: 15px;
+    line-height: 18.15px;
+  }
+}

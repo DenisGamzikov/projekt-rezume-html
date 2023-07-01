@@ -1,0 +1,64 @@
+.fixed-whatsapp-logo {
+  position: fixed;
+  width: 77.5px;
+  right: 46.25px;
+  bottom: 40px;
+}
+.contacts {
+  padding-left: 124px;
+  padding-right: 118px;
+  background-color: var(--impotant-blue-color);
+  max-width: 100%;
+  min-height: 164px;
+  margin-top: 50px;
+  padding-top: 20px;
+}
+.whatsapp-logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 678px;
+}
+.telegramm-logo {
+  width: 48px;
+  height: 40px;
+  margin-left: 58px;
+}
+.facebook-logo {
+  width: 40px;
+  height: 40px;
+  margin-left: 58px;
+}
+.contacts-text {
+  font-size: 26px;
+  line-height: 31px;
+}
+.email {
+  margin-bottom: 22px;
+}
+.phone-seti {
+  display: flex;
+}
+.pop-up-button {
+  position: fixed;
+  min-width: 245px;
+  min-height: 50px;
+  bottom: 67px;
+  right: 104px;
+  background-color: var(--impotant-blue-color);
+  display: none;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+.active-button {
+  display: block;
+}
+
+.unactive-button {
+  display: none;
+}
+#big-whatsapp-logo {
+  width: 100%;
+}

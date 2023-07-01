@@ -1,0 +1,159 @@
+@media only screen and (max-width: 600px) {
+  .introduction {
+    background-image: url("images/background-image.png");
+    background-size: 100%;
+    min-height: 280px;
+    background-repeat: no-repeat;
+  }
+  .navigation {
+    background: rgba(49, 57, 77, 0.99);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    max-height: 50px;
+  }
+  .small-screen-display-none {
+    display: none;
+  }
+  #full-photo {
+    display: none;
+  }
+  .menu_buttons {
+    margin-left: 315px;
+  }
+  .open_menu_button {
+    width: 40px;
+    height: 26px;
+    display: inline;
+  }
+  .my_photo {
+    position: static;
+  }
+
+  #small-face {
+    display: inline;
+  }
+  .header {
+    box-shadow: 0px 4px 10px 5px rgba(0, 0, 0, 0.3);
+    position: absolute;
+    left: 108px;
+    height: 200px;
+    min-width: 174px;
+    top: 80px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    align-items: center;
+  }
+  .header_content {
+    padding-top: 19px;
+    max-width: 100px;
+    align-items: center;
+  }
+
+  #name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28.4px;
+    text-align: center;
+    color: #000000;
+  }
+
+  h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 10px 5px 10px;
+    border-bottom: 2px solid #000000;
+    text-align: left;
+  }
+  #education {
+    margin-left: 20px;
+    display: inline-block;
+  }
+  .education_history {
+    margin-right: 25px;
+  }
+  .education_part {
+    background-color: #ffffff;
+    box-shadow: -3px 4px 10px 2px rgba(0, 0, 0, 0.25);
+    min-height: 170px;
+    margin-bottom: 40px;
+    margin-left: 5px;
+    padding: 0;
+    display: inline-block;
+  }
+  .text-collage-life {
+    margin-left: 0;
+  }
+  .color_words {
+    color: #b85741;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    padding-right: 7px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    margin-top: 12px;
+  }
+  h3 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 0px;
+    max-width: 194px;
+  }
+  .universitet {
+    display: flex;
+    align-items: baseline;
+  }
+  h4 {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 0px;
+  }
+  .gray-word {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #737373;
+    text-align: center;
+    margin-top: 4px;
+    margin-bottom: 0px;
+  }
+  .college-life {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    margin: 10px 20px;
+
+    font-family: "Inter";
+    font-style: normal;
+  }
+  .more {
+    background-color: #f0544f;
+    box-shadow: 0px 4px 4px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    height: 37px;
+    min-width: 127px;
+    color: #ffffff;
+    border: 0;
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+  .education_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 0;
+    padding-left: 0;
+  }
+}

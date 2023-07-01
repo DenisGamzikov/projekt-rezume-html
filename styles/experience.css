@@ -1,0 +1,135 @@
+#experience {
+  margin-top: 97px;
+  text-align: center;
+}
+.when-work {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  border-bottom: 5px solid #eca400;
+  background-color: var(--impotant-blue-color);
+  color: #ffffff;
+  max-height: 100px;
+  max-width: 200px;
+  padding: 2px 6px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+}
+.color-when-work {
+  background-color: #eca400;
+  color: #000000;
+}
+.number {
+  margin-top: 13px;
+  margin-bottom: 7px;
+}
+.years {
+  margin-bottom: 13px;
+}
+.last-container {
+  border-bottom: 0;
+}
+.work_information {
+  display: flex;
+  flex-direction: column;
+  max-width: 613px;
+}
+.name-work-full {
+  display: flex;
+  align-items: baseline;
+  margin-top: -43px;
+}
+
+.when-who-work {
+  display: flex;
+  align-items: baseline;
+  margin-top: -43px;
+  justify-content: space-between;
+}
+
+.big-photo {
+  width: 450px;
+  height: 450px;
+}
+.full_work_experience {
+  display: flex;
+  margin-left: 77px;
+  justify-content: space-between;
+}
+.name-work {
+  border-bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+.what-did {
+  font-size: 30px;
+  text-align: justify;
+}
+.gray-word {
+  font-size: 20px;
+}
+.big-gray-word {
+  font-size: 28px;
+  color: #737373;
+}
+.gray-square {
+  width: 100px;
+  height: 100px;
+  background-color: #737373;
+  position: relative;
+  top: -459.5px;
+  right: -350px;
+  cursor: pointer;
+}
+#close-gray-square {
+  width: 100px;
+  height: 100px;
+  background-color: #737373;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  cursor: pointer;
+}
+.loupe {
+  margin: 30px;
+}
+#container-big-picture {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  object-fit: cover;
+  top: 0;
+  text-align: center;
+}
+.full-picture {
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+}
+.full-picture-on {
+  display: block;
+}
+.full-picture-off {
+  display: none;
+}
+.stick {
+  height: 70%;
+  max-width: 2px;
+  background-color: #000000;
+}
+.first-stick {
+  transform: rotate(45deg);
+}
+.second-stick {
+  transform: rotate(-45deg);
+  position: relative;
+  top: -69px;
+}
+.full-close-square {
+  height: 100%;
+  position: relative;
+  left: 50px;
+  bottom: -13px;
+}
